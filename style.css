@@ -1,0 +1,49 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background: rgba(93,186,126,1);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 10px
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+.email, .name {
+  width: 45%;
+}
+
+.email {
+  float: right;
+}
+
+.message {
+  width: 100%;
+}
+
+.submit {
+  border-radius: 5px;
+  background-color: #fff;
+  display: block;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: rgba(93,186,126,1);
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0px solid;
+}
+
